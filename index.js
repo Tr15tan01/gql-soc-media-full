@@ -20,7 +20,6 @@ type Query {
     getPosts: [Post]
 }
 `
-
 const resolvers = {
     Query: {
         async getPosts() {
